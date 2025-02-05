@@ -14,6 +14,7 @@ Instructions:
    ```
     docker run -p 8080:8080 receipt-processor
    ```
+You should see something like 'Tomcat initialized with port 8080' which indicates that the application has started.
 
 4. Test the API:
    Use Postman or any HTTP client to test the API:
@@ -21,6 +22,8 @@ Instructions:
    POST: http://localhost:8080/receipts/process
 
    GET:  http://localhost:8080/receipts/{id}/points
+
+   Payload examples can be found here: https://github.com/fetch-rewards/receipt-processor-challenge
 
    
 
