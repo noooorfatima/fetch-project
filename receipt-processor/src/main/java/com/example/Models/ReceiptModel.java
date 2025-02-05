@@ -1,8 +1,7 @@
 package com.example.Models;
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 import lombok.*;
 import java.util.List;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -22,6 +21,5 @@ public class ReceiptModel {
         private String shortDescription;
         private double price;
 
-        // Getters and Setters
     }
 }

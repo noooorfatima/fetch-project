@@ -52,8 +52,4 @@ public class ReceiptController {
 
     }
 
-    @GetMapping("/test")
-    public String test() {
-        return "Hello, World!";
-    }
 }
