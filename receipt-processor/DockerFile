@@ -9,7 +9,7 @@ COPY mvnw ./
 COPY .mvn .mvn
 RUN chmod +x mvnw
 
-# Copy the Maven project file
+# Copy the Maven project files
 COPY pom.xml .
 COPY src ./src
 
