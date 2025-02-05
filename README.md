@@ -3,7 +3,7 @@
 Instructions:
 1. Clone the Repository
    ```
-   git clone https://github.com/noooorfatima/receipt-processor.git
+   git clone https://github.com/noooorfatima/fetch-project.git
    cd receipt-processor
    ```
 2. Build the Docker Image
